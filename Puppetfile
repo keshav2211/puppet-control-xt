@@ -7,3 +7,10 @@ mod 'puppetlabs/mysql'
 
 mod 'gitk',
   :git => 'git@xtgitserver:/opt/git/gitk.git'
+
+mod 'roles',
+  :git => 'git@xtgitserver:/opt/git/roles.git'
+
+mod 'profiles',
+  :git => 'git@xtgitserver:/opt/git/profiles.git'
+
