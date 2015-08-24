@@ -15,4 +15,4 @@ mod 'profiles',
   :git => 'git@xtgitserver:/opt/git/profiles.git'
 
 mod 'websites',
-  :git => 'git@xitgitserver:/opt/git/websites.git'
+  :git => 'git@xtgitserver:/opt/git/websites.git'
