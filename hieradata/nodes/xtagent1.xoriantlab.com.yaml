@@ -2,8 +2,29 @@
 
 webdbserver::mysqlpwd: ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEAuBh7uCtDm9HzY8U4CgP6TmnPjpkU4864UormYAI4MTolb3fUcDdWj3mBKxkepr4lVWwtfveHbp7onZZQvJCvc55/mYTU12Cfu6KBh4R8vjTSFh9bkwvm+DFBP4tGMab0UNrLW8G4Y2GroObyaDFiLC3zVF1Fy8+aBaXo4Txbws84rlV3Pd3nAOOUN4goOh4V+zEwxxc7c3BbeJDpEt1UAP3I/F3zETyPy7ZvflxZ6eBsGFqJtFb+LJht8zV6PsNmWaPjYk0Qobpguax1J89hwSM9DrMPdTpzMNSGsieuatIdFSDIO7NuvxTOn1e68TbUJwQKdk5mIIkSzDVMQbqvzDA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBBU+uDHBE6Q4uR3qllnK1wkgBCNX/aYdDwzkp0GvZi+7PSY]
 
-profile::website::name: 'website1.xoriantlab.com'
-profile::website::port: '9091'
-profile::website::docroot: '/var/www/website1'
-profile::website::htmlname: 'index.html'
-
+websites:
+	- website1:
+		webname: 'website1.xoriantlab.com'
+		port:	'9091'
+		docroot:	'/var/www/website1'
+		htmlname:	'index1.html'
+	- website2:
+		webname: 'website2.xoriantlab.com'
+		port:	'9092'
+		docroot:	'/var/www/website2'
+		htmlname:	'index2.html'
+	- website3:
+		webname: 'website3.xoriantlab.com'
+		port:	'9093'
+		docroot:	'/var/www/website3'
+		htmlname:	'index3.html'
+	- website4:
+		webname: 'website4.xoriantlab.com'
+		port:	'9094'
+		docroot:	'/var/www/website4'
+		htmlname:	'index4.html'
+	- website5:
+		webname: 'website5.xoriantlab.com'
+		port:	'9095'
+		docroot:	'/var/www/website5'
+		htmlname:	'index5.html'
