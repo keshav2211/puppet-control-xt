@@ -14,5 +14,5 @@ mod 'roles',
 mod 'profiles',
   :git => 'git@xtgitserver:/opt/git/profiles.git'
 
-mod 'websites',
-  :git => 'git@xtgitserver:/opt/git/websites.git'
+mod 'lam',
+  :git => 'git@xtgitserver:/opt/git/lam.git'
