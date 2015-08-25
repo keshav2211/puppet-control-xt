@@ -1,0 +1,54 @@
+---
+
+profiles::lamsetup::mysqlpwd: ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEAuBh7uCtDm9HzY8U4CgP6TmnPjpkU4864UormYAI4MTolb3fUcDdWj3mBKxkepr4lVWwtfveHbp7onZZQvJCvc55/mYTU12Cfu6KBh4R8vjTSFh9bkwvm+DFBP4tGMab0UNrLW8G4Y2GroObyaDFiLC3zVF1Fy8+aBaXo4Txbws84rlV3Pd3nAOOUN4goOh4V+zEwxxc7c3BbeJDpEt1UAP3I/F3zETyPy7ZvflxZ6eBsGFqJtFb+LJht8zV6PsNmWaPjYk0Qobpguax1J89hwSM9DrMPdTpzMNSGsieuatIdFSDIO7NuvxTOn1e68TbUJwQKdk5mIIkSzDVMQbqvzDA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBBU+uDHBE6Q4uR3qllnK1wkgBCNX/aYdDwzkp0GvZi+7PSY]
+
+profiles::websites::websites:
+  -
+     webname: 'website1.xoriantlab.com'
+     port: '9191'
+     docroot: '/var/www/website1'
+     htmlname: 'index1.html'
+  -
+     webname: 'website2.xoriantlab.com'
+     port: '9192'
+     docroot: '/var/www/website2'
+     htmlname: 'index2.html'
+  -
+     webname: 'website3.xoriantlab.com'
+     port: '9193'
+     docroot: '/var/www/website3'
+     htmlname: 'index3.html'
+  -
+     webname: 'website4.xoriantlab.com'
+     port: '9194'
+     docroot: '/var/www/website4'
+     htmlname: 'index4.html'
+  -
+     webname: 'website5.xoriantlab.com'
+     port: '9195'
+     docroot: '/var/www/website5'
+     htmlname: 'index5.html'
+
+
+profiles::databases::databases:
+  -
+     dbname: 'databaseone'
+     dbuser: 'userone'
+     dbpwd: ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEADAqS4IlesEJe63CLyRyz5rg7zQP8TL9kU/knq8WTD0BvEyThqaphzxZcAxmNFWwQv14cL4jaucgVUq+4RfZV+J9uo8dNu0zm3Qh9mWi/xL+ol/Me6cH0mAfjV7nSz+hQ0PtKkrNDhADK9hy/CN0nCWtR6SHEYwpq3CN10UtdzZq0EWbYvMocA5PChvDrhVByPJn3jELLIPmZpVzYbqxTejPPD1pZRh+0d5jnvd5pomlHXt5opQGM7IzNzz8OuBn18pzoO2lOgFScCGEGsxGN14QZNLaBws4qdis0np8851od3vQqyAS5E8dal7aHhnrXYGXaUCNMWQpwpOEEFB1OqTA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBCe2vgRSoLfpsGTEnul6ZwlgBDqJsA6xlLUAliamfRzcWCy]
+  -
+     dbname: 'databasetwo'
+     dbuser: 'usertwo'
+     dbpwd: ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEAGKtcf415okanYNB9avccinsfyWVH1RPeppNJjMdts4zqv/8rU4wz25+eAXDaPtTmJxSjoP3IMa583I4MEDRtJMD54qXF/TU1mPFo1I6tS9ZvIGU8ebTXBJ4bv/tirmyP/B3/7c7+rHM21/hc8fPYnXCnLS87G+iBV6IYFipNNTYVgZPIz1i6pbQnUgws64PoXoWc1mYSj1mqAH41K6RVaq9jbGLLxQWGrLOjDMvUJuEH4thQ/as2Y6tqJtvAH0v2L0xgej08oiDJxSRx3rS6ddp07PEI8tzAAxzn6qt7YlTK3byoptte5h/k/QRK+crCawcc5PqwXPG0gwHOZASPETA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBCNS1u7kJY8EN5h5PuriKUtgBBv/2inkBkKO4Fn4XBuecxT]
+  -
+     dbname: 'databasethree'
+     dbuser: 'userthree'
+     dbpwd: ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEAT6ltZby18aEX3K4kRqeh9BbmOb1Zp1fPZY2t5fecCV34/U4W/OUBcR33pj+rt1wn7/Kl8ImDzHYWt0b1P+qB4vza0Wrnr+TkTLvX7czJY3/QLhyKiWscov/EA+hUwBTxjbD5tn72dYhEpdMmGt/4zEIdBgzfoeusrj6iYzC1D69HUqfRtfUewqSWbnW3D1CfRU9YQXG+43mylOLan/EOxtoRgeOhNMKUZMwbefzEQrLeOc4vmphuZL3A1hYxWMPxuw+C6z37C/5pGtqaHqFpNUZBskM2d6OnfIHDTztojbpZqMj/bTvIJIv8eAPJuG/rw80xdG2OKl4jZRjgE6Y+/TA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBAedVH93KEPAkYF+4PXqFNWgBBZi0T9R+fVO8EHlAVnDepu]
+  -
+     dbname: 'databasefour'
+     dbuser: 'userfour'
+     dbpwd: ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEAPQli7SikW51vkgAbHc4D0Z1g2GbY5DUHBCP6bG0uXH8wNY5+MGAVAk/E7ygRtf90YpxdFF2BePf7OYkrmzxhuCIIjTg9krPNO+h4z57eAH9hHFMboPJqINWBEZCD8uHd+4P0yrdjgUWWSzfHaUb6cZCx5o+SVMwJ6mW1KKDfA0MNRrOwx2f46cQck6y7yDTtkz1uIM5/BcfgGFuOxtFrBySamjjGoLSJuX6wPtX18yVMx7L5dQPqMxU0fdfz5Tl1zPnDrQQV5SZyyHQiZWOK7vRxzfHOf6vILpASu/pyLU406VgA79qnW3ATSFYrrQ2aVng5zoS37v1XHDPNwjnuejA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBBdgnxUMg+NnQ1h2awxLRWzgBCppIu3JOlg9CyCClgv6sYN]
+  -
+     dbname: 'databasefive'
+     dbuser: 'userfive'
+     dbpwd: ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEAxZZFx1rJzFns+06ssje0l8h9v//JA1FjAj1sOvt2MLAXLCCwUDOz0+bdaRCjSf7R3RQA9NTpVKYPL64s+iviw6zQXpTI28yXSbKvti30DboRlxU10zghJ/oqnMOVSTXfZsjk+R1adHympRYv4vDhpEfzDOZH2s5fVB0RFYLax54btnMqeNmcDBTAFJn4a0TtfmRYZ/lHTBF7+WBIIW5oOP0jkHPSh747QPlPBtWpUUGi/WHLzSgfQYsgNNsd0sFDgcLX89h/fkdy2o+s+U8cg0JFkdqisJgTRLhKGwtFpCKtwbar8XA2NtQJPzNfL+jx/oShV2nVOhsnxNtbRWM0WDA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBCXxDgdOFWLgRD/4tHV01JbgBD/7M0eq5R/nlQg8bqIYJdx]
+
