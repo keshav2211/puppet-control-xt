@@ -1,8 +1,8 @@
 ---
 
-gitreponames:
+profiles::gitserver::reponames:
   - puppet-control-xt
   - gitk
   - roles
   - profiles
-  - lam 
+  - lam
