@@ -16,7 +16,7 @@ mod 'lam',
   :branch => 'rel15.1'
 
 mod 'gitk',
-  :git => 'git@gitserver:/opt/git/gitk.git',
+  :git => 'git@xtgitserver:/opt/git/gitk.git',
   :branch => 'rel2.0'
 
 
