@@ -52,3 +52,9 @@ profiles::databases::databases:
      dbuser: 'userfive'
      dbpwd: ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEAxZZFx1rJzFns+06ssje0l8h9v//JA1FjAj1sOvt2MLAXLCCwUDOz0+bdaRCjSf7R3RQA9NTpVKYPL64s+iviw6zQXpTI28yXSbKvti30DboRlxU10zghJ/oqnMOVSTXfZsjk+R1adHympRYv4vDhpEfzDOZH2s5fVB0RFYLax54btnMqeNmcDBTAFJn4a0TtfmRYZ/lHTBF7+WBIIW5oOP0jkHPSh747QPlPBtWpUUGi/WHLzSgfQYsgNNsd0sFDgcLX89h/fkdy2o+s+U8cg0JFkdqisJgTRLhKGwtFpCKtwbar8XA2NtQJPzNfL+jx/oShV2nVOhsnxNtbRWM0WDA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBCXxDgdOFWLgRD/4tHV01JbgBD/7M0eq5R/nlQg8bqIYJdx]
 
+profiles::gitserver::reponames:
+  - puppet-control-xt
+  - gitk
+  - roles
+  - profiles
+  - lam
