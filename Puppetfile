@@ -12,5 +12,5 @@ mod 'profiles',
   :git => 'git@xtgitserver:/opt/git/profiles.git'
 
 mod 'lam',
-  :git => 'git@xtgitserver:/opt/git/lam.git'
+  :git => 'git@xtgitserver:/opt/git/lam.git',
   :branch => 'rel15.2'
