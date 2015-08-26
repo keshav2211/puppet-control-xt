@@ -14,3 +14,6 @@ mod 'profiles',
 mod 'lam',
   :git => 'git@xtgitserver:/opt/git/lam.git',
   :branch => 'rel15.2'
+
+mod 'gitk',
+  :git => 'git@xtgitserver:/opt/git/gitk.git'
