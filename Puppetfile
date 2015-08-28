@@ -4,6 +4,7 @@ mod 'puppetlabs/stdlib'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/apache'
 mod 'puppetlabs/mysql'
+mod 'puppetlabs/puppetserver_gem'
 
 mod 'gitk',
   :git => 'git@xtgitserver:/opt/git/gitk.git'
@@ -16,3 +17,6 @@ mod 'profiles',
 
 mod 'lam',
   :git => 'git@xtgitserver:/opt/git/lam.git'
+
+mod 'eyaml',
+  :git => 'git@xtgitserver:/opt/git/eyaml.git'
