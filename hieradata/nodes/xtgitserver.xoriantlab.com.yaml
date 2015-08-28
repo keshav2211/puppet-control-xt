@@ -1,5 +1,7 @@
 ---
 
+profiles::gitserver::repohome: '/opt/git'
+
 profiles::gitserver::reponames:
   - puppet-control-xt
   - gitk
