@@ -27,10 +27,13 @@ filebucket { 'main':
 # Make filebucket 'main' the default backup location for all File resources:
 File { backup => 'main' }
 
+#Global resource default to set default owner for all File resources:
+File { owner => 'vagrant' }
+
 # DEFAULT NODE
 # Node definitions in this file are merged with node data from the console. See
 # http://docs.puppetlabs.com/guides/language_guide.html#nodes for more on
-# node definitions.
+# node definition
 
 # The default node definition matches any node lacking a more specific node
 # definition. If there are no other nodes in this file, classes declared here
